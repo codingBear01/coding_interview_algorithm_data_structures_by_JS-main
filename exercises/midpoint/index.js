@@ -13,7 +13,7 @@
 //   midpoint(l); // returns { data: 'b' }
 
 function midpoint(list) {
-  let slow = list.getFirst();
+  let slow = list.getFirst(); // = list.head;
   let fast = list.getFirst();
 
   while (fast.next && fast.next.next) {
